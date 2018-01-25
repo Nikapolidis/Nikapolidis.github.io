@@ -1,0 +1,242 @@
+
+
+html, body {
+    height: 100%;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: purple;
+}
+
+@media screen and (min-width: 360px;)
+.container {
+    width: 1200px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    height: 300px;
+    background: url(../logo/online-1331030_1280.png);
+    background-size: 40%;
+    background-color: plum;
+}
+
+.logo {
+    margin: 10px 10px;
+    float: left;
+}
+
+
+
+.nav-menu .nav-link {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  color: purple;
+  background-color: transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-menu .nav-link {
+    margin-left: 15px;
+
+}
+
+.nav-menu .active {
+  color: purple;
+  border-bottom-color: purple;
+}
+
+@media (min-width: 200px) {
+  .logo {
+    float: left;
+  }
+  .nav-menu {
+    float: right;
+  }
+
+
+.content {
+    background-color: #E1E0E1;
+    margin: 0 auto;
+}
+
+.clr {
+    height: 0px;
+    }
+    
+    
+.heading {
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 20px;
+    color: rebeccapurple;
+}
+
+
+
+
+.prod-list>li {
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #905BAE;
+    width: 150px;
+    height: 200px;
+    margin: 50px 45px;
+    padding: 50px 50px;
+}
+
+.prod-list>li>a {
+    font-style: normal;
+    font-size: 23px;
+    text-decoration: none;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+}
+
+.art_type {
+    display: block;
+    text-align: center;
+}
+       
+    
+.caption {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    clear: both;
+}
+
+.product_img:hover {
+    outline: 3px solid #010101;
+}
+
+p:first-letter {
+    font-size: 20px;
+    font-family: inherit;
+    color: darkmagenta;
+}
+
+.mini_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.max_description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+table {
+    border: 1px solid #000;
+    width: 00px;
+    height: 100px;
+}
+
+.table td {
+    border: 1px solid#000;
+    padding-left: 10px;
+    padding-top: 5px; 
+    vertical-align: top;
+    
+}
+
+.character {
+    color: darkblue;
+    font-style: oblique;
+    font-weight: 500;
+    list-style-type: circle;
+    clear: both;
+}
+
+.code {
+    color: grey;
+    font-weight: 400;
+}
+
+h3 {
+    background-color: plum;
+}
+
+h2, .art_type {
+    background-color: plum;
+}
+
+.contacts input[type="text"] {
+    width: 500px;
+    height: 10px;
+    font-size: 16px;
+    color: purple;
+    padding: 10px;
+    border: 1px solid #905BAE;
+    border-radius: 5px;
+    border-color: purple;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+
+.contacts input[type="text"]:focus, .contacts textarea:focus {
+    outline-style: none;
+    border-color: purple;
+}
+
+.contacts textarea {
+    width: 500px;
+    height: 50px;
+    font-size: 16px;
+    color: purple;
+    padding: 10px;
+    border: 1px solid #905BAE;
+    border-radius: 5px;
+    margin-top: 3px;
+    text-transform: capitalize;
+}
+.contacts input[type="submit"], [type="reset"] {
+    font-style: normal;
+    font-size: 15px;
+    background: plum;
+    color: black;
+    border: 1px solid #905BAE;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.adress {
+    font-size: 18spx;
+    font-weight: 400;
+    list-style-type: none;
+}
+
+.script [type="text/javascript"] {
+    display: block;
+    width: 100%;
+    height: 350px;
+}
+
+.footer {
+    height: 100px;
+    text-align: right;
+    padding: 10px 50px 0 0;
+}
+
+.footer, .product_img, .caption {
+   background-color: #905BAE; 
+}
